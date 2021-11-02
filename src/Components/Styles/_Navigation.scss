@@ -1,0 +1,83 @@
+.Navigation {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  z-index: 1;
+  background: linear-gradient(110.92deg, #e1f4f5 19.25%, #d3ebec 53%);
+  transition: 0.7s ease-in-out;
+  p {
+    padding: 2rem;
+    padding-top: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    width: fit-content;
+    color: #64626a;
+    line-height: 21px;
+    border-bottom: 2px solid none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    span {
+      background-color: #1d5e6d;
+      width: 2rem;
+      height: 2px;
+      margin-top: 0.5rem;
+      opacity: 0;
+    }
+  }
+  p:hover {
+    color: #1d5e6d;
+    // font-weight: 600;
+    border-bottom-color: #1d5e6d;
+    span {
+      opacity: 1;
+      transition: 0.2s ease-in-out;
+    }
+  }
+  a {
+    margin-right: auto;
+  }
+  button {
+    width: 92px;
+    height: 38px;
+    background-color: #348193;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 19px;
+    cursor: pointer;
+    margin-right: auto;
+  }
+  button:hover {
+    color: #348193;
+    border: 1px solid #348193;
+    background-color: #fff;
+    transition: 0.2s;
+  }
+  .Buy {
+    margin-left: auto;
+  }
+  .Advertise {
+    margin-left: auto;
+  }
+}
+.nav-active {
+  background: white;
+}
+.Logo {
+  display: flex;
+  align-items: center;
+  font-size: 28.09px;
+  color: #00d095;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+@media (max-width: 1220px) {
+  .Navigation {
+    display: none;
+  }
+}

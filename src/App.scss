@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish&family=Poppins&display=swap');
+@import "./Components/Styles/Homepage";
+@import "./Components/Styles/Navigation";
+@import "./Components/Styles/Navbar";
+@import "./Components/Styles/Searchbar";
+@import "./Components/Styles/Services";
+@import "./Components/Styles/Signup";
+@import "./Components/Styles/Advantages";
+@import "./Components/Styles/HowItWorks";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  // background-color: #e5e5e5;
+}

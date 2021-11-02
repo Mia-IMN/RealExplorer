@@ -1,0 +1,116 @@
+.Advantages{
+    width: 90%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    border-radius: 0 0 50px 50px ;
+    text-align: center;
+    position: relative;
+    .background{
+        position: absolute;
+        z-index: -1;
+    }
+    .title {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 2px;
+        color: #fff;
+        text-align: center;
+        margin-top: 4rem;
+      }
+      h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 54px;
+        color: #fff;
+        text-align: center;
+        margin-top: 2rem;
+      }
+      .white-bg{
+          width: 1140px;
+          height: 445px;
+          background-color: #fff;
+          margin-top: 2rem;
+          border-radius: 20px;
+          .content{
+              width: 100%;
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+          } 
+      }
+     .figure{
+         margin-top: 6rem;
+         font-size: 72px;
+         color: white;
+       
+     }  
+     p{
+         color: #e5e5e5;
+         margin-top: 1rem;
+         font-size: 16px;
+         font-family: 'Mulish', sans-serif;
+     }
+     .home{
+         font-weight: 600;
+         margin-top: 2rem;
+     }
+     .items{
+         display: flex;
+        p{
+            color: #64626a;
+            font-family: 'Inter', sans-serif;
+            font-size: 20px;
+            line-height: 44.2px;
+            font-weight: 400;
+            img{
+                margin-right: 1rem;
+            }
+        }
+        .right_hand_side{
+            text-align:left;
+            border-left: 1px solid #8e8c95;
+            padding-left: 1.8rem;
+        }
+        .left_hand_side{
+            text-align: right;
+            margin-right: 2rem;
+            p{
+                margin-right: 1rem;
+            }
+        }
+     }
+     .header{
+         display: flex;
+         justify-content: center;
+         p{
+             font-weight: 600;
+             font-size: 24px;
+             color: #3b3a40;
+             line-height: 36px;
+             span{
+                 color: #00D095;
+             }
+         }
+         h3{
+             width: 62px;
+             height: 62px;
+             font-size: 24px;
+             line-height: 24px;
+             text-align: center;
+             color: #8E8C95;
+             border: 1px solid #8E8C95;
+             border-radius: 15px;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             margin: 0 1rem;
+         }
+     }
+}

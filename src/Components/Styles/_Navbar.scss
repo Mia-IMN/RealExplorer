@@ -1,0 +1,40 @@
+.Navbar {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  .links {
+    position: fixed;
+    background-color: #fff;
+    height: 100vh;
+    width: 40%;
+    z-index: 1;
+    transition: 1s ease-in-out;
+    border-radius: 0 10px 10px 0;
+    p {
+      color: rgb(29, 94, 109);
+      padding: 1rem;
+      border-bottom: 1px solid #e5e5e5;
+      cursor: pointer;
+    }
+    p:hover {
+      background: linear-gradient(110.92deg, #e1f4f5 19.25%, #d3ebec 53%);
+    }
+    .Buy {
+      margin-top: 2rem;
+      border-top: 1px solid #e5e5e5;
+    }
+  }
+}
+@media (max-width: 1220px) {
+  .Navbar {
+    opacity: 1;
+  }
+}
+@media (max-width: 700px) {
+  .Navbar {
+    .links {
+      width: 50%;
+    }
+  }
+}
